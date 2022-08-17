@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+.inventory{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    top: 5;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 8px 3px 8px;
+}
+
+#money{
+    padding: 10px;
+}
+.marketplace_loja{
+    display: none;
+}
+.marketplace_venda{
+    display: none;
+}
+.menu1{
+    background: linear-gradient(45deg, #ccdacc, #1a1b1b);
+    width: 100%;
+    height: 118px;
+    padding: 2px;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.lojas{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.main{
+    display: inline;
+    width: 100%;
+}
+
+.cenario{
+    background-image: url("./image/BG.png");
+    position: relative;
+    height: 695px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.personagens{
+    margin-top: 30px;
+    width: 100%;
+    display: inline-flex;
+    padding: 10px;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.sellButtons{
+    display: inline-block;
+    align-items: center;
+}
+
+.upgrades, .items button{
+    display: inline-block;
+    align-items: center;
+}
+
+button{
+    background-color: white;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: 0px 3px 8px;
+    border-radius: 10px;
+}
+
+button:active{
+    box-shadow: inset -4px 3px 0 #222;
+}
+
+.painel_venda{
+    display: none;
+}
+
+#lenhador1{
+    width: 80px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: -2px 3px 0 #222, -4 6px 0 #000;
+    background-color: rgba(255, 255, 255);
+}
+
+#lenhador1:active{
+    box-shadow: inset -4px 4px 0 #222;
+}
+
+
+
+#minerador1{
+    width: 80px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: -2px 3px 0 #222, -4 6px 0 #000;
+    background-color: rgba(255, 255, 255);
+}
+#minerador2{
+    width: 80px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: -2px 3px 0 #222, -4 6px 0 #000;
+    background-color: rgba(255, 255, 255);
+}
+
+#minerador1:active{
+    box-shadow: inset -4px 4px 0 #222;
+}
+
+#minerador2:active{
+    box-shadow: inset -4px 4px 0 #222;
+}
+
+.popup{
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    display: none;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(71, 69, 69);
+}
+
+#popText{
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    display: none;
+}
+
+#popText1{
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    display: none;
+}
+
+#fecharPop{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+#closePop{
+    text-align: center;
+    padding: 5px;
+}

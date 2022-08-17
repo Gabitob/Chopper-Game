@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Choper Idle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="menus">
+            <div class="main">
+                <div class="cenario">
+                    <div class="menu1">
+                        <div class="inventory">
+                            <p id="money"> Dinheiro: 💲0 </p>
+                            <p id="log"></p>
+                        </div>
+                        <div class="lojas">
+                            <button id="visit">Loja</button>
+                            <button id="visit1">Venda</button>
+                            <button id="visit2">MiniGame</button>
+                            <button id="visit3">Mapa</button>
+                            <button id="visit4">Cavaalo</button>
+                        </div>
+                    </div>
+                    <div class="popup">
+                        <button id="fecharPop"><p id="closePop">Fechar</p></button>
+                        <p id="popText">Você não tem uma picareta :(</p>
+                        <p id="popText1">Você não tem uma broca :(</p>
+                    </div>
+                    <div class="personagens">
+                        <div class="lenhador01">
+                            <img src="./image/sprite_0.png" alt="Lenhador" id="lenhador1">
+                        </div>
+                        <div class="minerador01">
+                            <img src="./image/spritePica_0.png" alt="Minerador1" id="minerador1">
+                        </div>
+                        <div class="minerador02">
+                            <img src="./image/esmer_pick0.png" alt="Minerador2" id="minerador2">
+                        </div>
+                    </div>
+                </div>
+
+ 
+            </div>
+
+            <div class="marketplace_loja">
+                <div class="upgrades">
+                    <button id="autoChopper">Comprar [1] Cortador Automático ($100)</button>
+                    <button id="autoMiner">Comprar [1] Minerador Automático ($500)</button>
+                    <button id="autoBroca">Comprar [1] Broca Automática ($5000)</button>
+                    <button id="madeirax2">Comprar Lumberjack tier 2 ($50000)</button>
+                </div>
+
+                <div class="items">
+                    <button id="buyPickaxe">Comprar [1] Picareta ($50)</button>
+                    <button id="buyBroca">Comprar [1] Broca ($300)</button>
+                </div>
+                <button id="return">Retornar</button>
+            </div>
+            <div class="marketplace_venda">
+                <div class="sellButtons">
+                    <div class="painel_venda">
+                        <button id="sell1">Vender [1]</button>
+                    </div>
+                    <button id="return2">Retornar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
